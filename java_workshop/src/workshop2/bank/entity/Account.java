@@ -58,6 +58,7 @@ public class Account {
 
     // 잔액을 감소시키는 메소드
     public void subtractBalance(int amount) {
+    	
         if (amount <= this.balance) {
             this.balance -= amount;
         } else {

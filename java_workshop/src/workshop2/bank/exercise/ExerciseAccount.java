@@ -5,6 +5,7 @@ import workshop2.bank.entity.Account;
 public class ExerciseAccount {
 
     public static void main(String[] args) {
+    	
         // Account 객체를 생성한다.
     	Account account = new Account("CUST01", "소지섭", "1-22-333", 100000);
 
@@ -24,6 +25,6 @@ public class ExerciseAccount {
         System.out.println(20000 + "원을 출금합니다.");
         account.subtractBalance(20000);
         System.out.println("감소 후 잔액: " + account.getBalance() + "원");
-
+        
     }
 }
