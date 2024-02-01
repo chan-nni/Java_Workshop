@@ -25,6 +25,7 @@ public class ExerciseAccount {
         System.out.println(20000 + "원을 출금합니다.");
         account.subtractBalance(20000);
         System.out.println("감소 후 잔액: " + account.getBalance() + "원");
-        
+       
     }
+    
 }

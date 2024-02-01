@@ -58,12 +58,7 @@ public class Account {
 
     // 잔액을 감소시키는 메소드
     public void subtractBalance(int amount) {
-    	
-        if (amount <= this.balance) {
-            this.balance -= amount;
-        } else {
-            System.out.println("잔액 부족으로 인해 감소할 수 없습니다.");
-        }
+    	this.balance -= amount;
     }
 
 }
