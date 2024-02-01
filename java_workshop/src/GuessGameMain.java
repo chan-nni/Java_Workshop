@@ -39,23 +39,6 @@ public class GuessGameMain {
 		} else {
 			System.out.println("10번의 기회가 끝났습니다. 다시 핚 번 시도해 보세요.");
 		}
-		
-		
-		
-//		int idx = 0;
-//		for(idx = 1; idx <= 10; idx++) {
-//			System.out.printf("%d번째 기회 입니다. 숫자를 입력하세요 : ", idx);
-//		}
-//		
-//		
-//		if(inputNumber > hiddenNumber) {
-//			System.out.printf("%d보다 큽니다. ", inputNumber);
-//		} else if(inputNumber < hiddenNumber) {
-//			System.out.printf("%d보다 작습니다. ", inputNumber);
-//		} else {
-//			System.out.printf("축하합니다. %d만에 맞추셨네요", idx);
-//		}
-		
 
 	}
 
