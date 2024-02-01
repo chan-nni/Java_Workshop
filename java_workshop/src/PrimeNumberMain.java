@@ -15,6 +15,7 @@ public class PrimeNumberMain {
 		} else if( inputNumber == 2) {
 			System.out.println(inputNumber+"은(는) 소수입니다.");
 		}
+		
 		boolean isFlag = true;
 		for(int idx = 2; idx < inputNumber; idx++) {
 			if(inputNumber % 2 == 0) { // 만족하면 소수가 아니므로 굳이 실행할 필요 X
@@ -22,9 +23,9 @@ public class PrimeNumberMain {
 				break;
 			}
 		}
+		
 		String msg = (isFlag == true) ? inputNumber+"은 소수입니다." : inputNumber+"은 소수가 아닙니다.";
 		System.out.println(msg);
-		
 		
 	}
 
