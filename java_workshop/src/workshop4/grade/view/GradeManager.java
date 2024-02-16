@@ -3,10 +3,12 @@ package workshop4.grade.view;
 import workshop4.grade.entity.Student;
 
 public class GradeManager {
+	
+	private static Student [] stu ; 
 
 	public static void main(String[] args) {
 		
-		final Student [] stu;
+		// final Student [] stu;
 		
 		stu = new Student[] {
 				new Student("kim", "10000", 22, 100, 100, 100),
